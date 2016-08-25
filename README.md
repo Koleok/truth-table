@@ -18,7 +18,7 @@ truth-table
 _kind of like this_
 
 ```
-                                                u    -
+                                                u     -
                                                 n  I  I
                               "                 d  n  n
                            "  f                 e  f  f

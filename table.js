@@ -1,5 +1,5 @@
 module.exports =`
-                                              u    -
+                                              u     -
                                               n  I  I
                             "                 d  n  n
                          "  f                 e  f  f
