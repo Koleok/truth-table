@@ -3,7 +3,8 @@
   "version": "1.0.3",
   "description": "A silly tool for a silly language :P",
   "author": "Kyle Chamberlain",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": "./bin.js",
   "scripts": {
     "start": "node index"
   },
