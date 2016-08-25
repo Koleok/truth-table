@@ -1,0 +1,14 @@
+{
+  "name": "truth-table",
+  "version": "1.0.0",
+  "description": "A silly tool for a silly language :P",
+  "author": "Kyle Chamberlain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
