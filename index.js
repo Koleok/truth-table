@@ -1,4 +1,4 @@
-const { blue, cyan, green, red, yellow } = require('chalk')
+const { blue, cyan, green, red, yellow, gray } = require('chalk').bold
 const table = require('./table')
 
 const color = x => {
@@ -18,12 +18,18 @@ const color = x => {
 
     case '"':
       return x
-      
+
     default:
       return cyan(x)
   }
 }
 
 console.log(
-  table .split('').map(color).join('')
+  table.split('').map(color).join('')
 )
+
+console.log(`
+  ${green('=')}${gray(' -- equals')}
+  ${red('≠')}${gray(' -- not equals')}
+  ${yellow('≅')}${gray(' -- qpproximate')}
+`)
