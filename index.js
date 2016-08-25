@@ -29,7 +29,7 @@ console.log(
 )
 
 console.log(`
-  ${green('=')}${gray(' -- equals')}
-  ${red('≠')}${gray(' -- not equals')}
-  ${yellow('≅')}${gray(' -- qpproximate')}
+  ${green('=')}  -- equals
+  ${red('≠')} -- not equals
+  ${yellow('≅')} -- qpproximate
 `)
