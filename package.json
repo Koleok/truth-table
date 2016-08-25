@@ -1,6 +1,6 @@
 {
   "name": "truth-table",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A silly tool for a silly language :P",
   "author": "Kyle Chamberlain",
   "main": "./index.js",
